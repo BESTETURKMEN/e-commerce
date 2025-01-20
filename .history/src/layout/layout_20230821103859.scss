@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout {
+  .ant-layout {
+    height: 100vh;
+    .ant-layout-header {
+      background-color: rgb(255, 255, 255) !important;
+      .header {
+        .menuLine {
+          .ant-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
