@@ -23,6 +23,7 @@
 .header-row {
   height: 90px;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
