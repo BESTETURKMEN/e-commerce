@@ -5,7 +5,8 @@
   "dependencies": {
     "@ant-design/icons": "^5.2.5",
     "@reduxjs/toolkit": "^1.9.5",
-    "antd": "^5.8.3",
+    "antd": "^5.23.2",
+    "bootstrap": "^5.3.3",
     "eslint-plugin-prettier": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
