@@ -9,11 +9,12 @@ export default function Slider() {
         <img
           src="https://e-commerce-udemy.netlify.app/img/slider/slider1.jpg"
           alt=""
+          className="img-fluid"
         />
         <div className="container">
           <p className="slider-title">SUMMER 2022</p>
           <h2 className="slider-heading">Save up to 70%</h2>
-          <Button type="link">Explore Now</Button>
+          <Button type="primary">Explore Now</Button>
         </div>
       </div>
       <div className="slider-item fade">
@@ -26,7 +27,7 @@ export default function Slider() {
         <div className="container">
           <p className="slider-title">SUMMER 2022</p>
           <h2 className="slider-heading">Save up to 70%</h2>
-          <Button type="link">Explore Now</Button>
+          <Button type="primary">Explore Now</Button>
         </div>
       </div>
       <div className="slider-item fade">
@@ -39,7 +40,7 @@ export default function Slider() {
         <div className="container">
           <p className="slider-title">SUMMER 2022</p>
           <h2 className="slider-heading">Save up to 70%</h2>
-          <Button type="link">Explore Now</Button>
+          <Button type="primary">Explore Now</Button>
         </div>
       </div>
     </Carousel>

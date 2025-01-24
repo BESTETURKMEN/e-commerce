@@ -1,13 +1,47 @@
 .slider-item {
-  height: 410px;
-  margin: 0px;
-  line-height: 160px;
+  position: relative;
+  height: calc(100vh - 137px);
+  display: flex;
+  align-items: center;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    object-position: 60%;
+    z-index: -1;
+  }
   .slider-title {
     font-size: 18px;
     font-weight: 500;
+    margin-top: 300px;
   }
   .slider-heading {
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 60px;
+    font-weight: 600;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-item {
+    height: calc(100vh - 155px);
+  }
+
+  .slider-buttons {
+    display: none !important;
   }
 }

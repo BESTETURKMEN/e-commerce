@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
 import HomePage from "../pages/HomePage";
 import ShopPage from "../pages/ShopPage";
 import ContactPage from "../pages/ContactPage";
@@ -9,13 +8,12 @@ import CartPage from "../pages/CartPage";
 import BlogPage from "../pages/BlogPage";
 import BlogDetail from "../pages/BlogDetailPage";
 import ProductDetailsPage from "../pages/ProductDetailsPage";
-import MainLayout from "../layout/MainLayout";
 
 export default function RouteWrapper() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/Home" element={<HomePage />} />
         <Route path="/Shop" element={<ShopPage />} />
         <Route path="/Contact" element={<ContactPage />} />
         <Route path="/Auth" element={<AuthPage />} />

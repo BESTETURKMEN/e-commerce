@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./header.scss";
 
 export default function Header() {
@@ -10,7 +9,7 @@ export default function Header() {
           <p>
             SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL
             DELIVERY - OFF 50%!
-            <a href="shop.html"> SHOP NOW</a>
+            <a href="/Shop"> SHOP NOW</a>
           </p>
         </div>
       </div>
@@ -21,7 +20,7 @@ export default function Header() {
               <i className="bi bi-list" id="btn-menu"></i>
             </div>
             <div className="header-left">
-              <a href="index.html" className="logo">
+              <a href="/Home" className="logo">
                 LOGO
               </a>
             </div>
@@ -29,7 +28,7 @@ export default function Header() {
               <nav className="navigation">
                 <ul className="menu-list">
                   <li className="menu-list-item">
-                    <a href="index.html" className="menu-link active">
+                    <a href="/Home" className="menu-link active">
                       Home
                       <i className="bi bi-chevron-down"></i>
                     </a>
@@ -66,7 +65,7 @@ export default function Header() {
                     </div>
                   </li>
                   <li className="menu-list-item megamenu-wrapper">
-                    <a href="shop.html" className="menu-link">
+                    <a href="/Shop" className="menu-link">
                       Shop
                       <i className="bi bi-chevron-down"></i>
                     </a>
@@ -176,12 +175,12 @@ export default function Header() {
                     </div>
                   </li>
                   <li className="menu-list-item">
-                    <a href="blog.html" className="menu-link">
+                    <a href="/Blog" className="menu-link">
                       Blog
                     </a>
                   </li>
                   <li className="menu-list-item">
-                    <a href="contact.html" className="menu-link">
+                    <a href="/Contact" className="menu-link">
                       Contact
                     </a>
                   </li>
@@ -191,7 +190,7 @@ export default function Header() {
             </div>
             <div className="header-right">
               <div className="header-right-links">
-                <a href="account.html" className="header-account">
+                <a href="/Auth" className="header-account">
                   <i className="bi bi-person"></i>
                 </a>
                 <button className="search-button">
@@ -201,7 +200,7 @@ export default function Header() {
                   <i className="bi bi-heart"></i>
                 </a>
                 <div className="header-cart">
-                  <a href="cart.html" className="header-cart-link">
+                  <a href="/Card" className="header-cart-link">
                     <i className="bi bi-bag"></i>
                     <span className="header-cart-count">0</span>
                   </a>

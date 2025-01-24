@@ -1,6 +1,6 @@
 import React from "react";
-import "./footer.scss";
 import Policy from "./policy";
+import "./footer.scss";
 
 export default function Footer() {
   return (
