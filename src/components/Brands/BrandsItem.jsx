@@ -5,7 +5,10 @@ export default function BrandsItem() {
     <div>
       <li class="brand-item">
         <a href="#">
-          <img src="img/brands/brand1.png" alt="" />
+          <img
+            src="https://e-commerce-udemy.netlify.app/img/brands/brand1.png"
+            alt=""
+          />
         </a>
       </li>
     </div>

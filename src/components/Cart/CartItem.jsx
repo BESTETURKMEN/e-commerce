@@ -5,7 +5,10 @@ export default function CartItem() {
     <tr class="cart-item">
       <td></td>
       <td class="cart-image">
-        <img src="img/products/product2/1.png" alt="" />
+        <img
+          src="https://e-commerce-udemy.netlify.app/img/products/product2/1.png"
+          alt=""
+        />
         <i class="bi bi-x delete-cart" data-id="2"></i>
       </td>
       <td>Ridley High Waist</td>

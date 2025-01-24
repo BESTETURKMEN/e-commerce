@@ -6,7 +6,10 @@ export default function BlogsItem() {
     <div>
       <li className="blog-item">
         <a href="#" className="blog-image">
-          <img src="img/blogs/blog3.jpg" alt="" />
+          <img
+            src="https://e-commerce-udemy.netlify.app/img/blogs/blog3.jpg"
+            alt=""
+          />
         </a>
         <div className="blog-info">
           <div className="blog-info-top">

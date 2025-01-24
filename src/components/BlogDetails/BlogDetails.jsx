@@ -9,7 +9,10 @@ export default function BlogDetails() {
         <article>
           <figure>
             <a href="#">
-              <img src="img/blogs/blog1.jpg" alt="" />
+              <img
+                src="https://e-commerce-udemy.netlify.app/img/blogs/blog1.jpg"
+                alt=""
+              />
             </a>
           </figure>
           <div className="blog-wrapper">

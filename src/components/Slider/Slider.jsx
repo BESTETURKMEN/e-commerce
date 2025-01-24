@@ -6,7 +6,10 @@ export default function Slider() {
   return (
     <Carousel arrows infinite={false}>
       <div className="slider-item fade">
-        <img src="img/slider/slider1.jpg" alt="" />
+        <img
+          src="https://e-commerce-udemy.netlify.app/img/slider/slider1.jpg"
+          alt=""
+        />
         <div className="container">
           <p className="slider-title">SUMMER 2022</p>
           <h2 className="slider-heading">Save up to 70%</h2>
@@ -14,7 +17,11 @@ export default function Slider() {
         </div>
       </div>
       <div className="slider-item fade">
-        <img src="img/slider/slider2.jpg" className="img-fluid" alt="" />
+        <img
+          src="https://e-commerce-udemy.netlify.app/img/slider/slider2.jpg"
+          className="img-fluid"
+          alt=""
+        />
 
         <div className="container">
           <p className="slider-title">SUMMER 2022</p>
@@ -23,7 +30,11 @@ export default function Slider() {
         </div>
       </div>
       <div className="slider-item fade">
-        <img src="img/slider/slider3.jpg" className="img-fluid" alt="" />
+        <img
+          src="https://e-commerce-udemy.netlify.app/img/slider/slider3.jpg"
+          className="img-fluid"
+          alt=""
+        />
 
         <div className="container">
           <p className="slider-title">SUMMER 2022</p>

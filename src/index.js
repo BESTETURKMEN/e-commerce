@@ -1,22 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter } from "react-router-dom";
-
-import { Provider } from "react-redux";
-
-import { store } from "./store/store";
 
 import reportWebVitals from "./reportWebVitals";
 import RouteWrapper from "./config/routeWrapper";
+import MainLayout from "./layout/MainLayout";
+import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <HashRouter>
-        <RouteWrapper />
-      </HashRouter>
-    </Provider>
+    <MainLayout>
+      <RouteWrapper />
+    </MainLayout>
   </React.StrictMode>
 );
 reportWebVitals();

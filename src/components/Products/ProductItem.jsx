@@ -7,8 +7,16 @@ export default function ProductItem() {
       <li className="product-item glide__slide glide__slide--active">
         <div className="product-image">
           <a href="#">
-            <img src="img/products/product1/1.png" alt="" className="img1" />
-            <img src="img/products/product1/2.png" alt="" className="img2" />
+            <img
+              src="https://e-commerce-udemy.netlify.app/img/products/product1/1.png"
+              alt=""
+              className="img1"
+            />
+            <img
+              src="https://e-commerce-udemy.netlify.app/img/products/product1/2.png"
+              alt=""
+              className="img2"
+            />
           </a>
         </div>
         <div className="product-info">

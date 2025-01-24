@@ -7,7 +7,7 @@ export default function CategoriesItem() {
       <li className="category-item">
         <a href="#">
           <img
-            src="img/categories/categories1.png"
+            src="https://e-commerce-udemy.netlify.app/img/categories/categories1.png"
             alt=""
             className="category-image"
           />
